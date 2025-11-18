@@ -2,6 +2,8 @@
 
 Ce projet est une application web interactive pour analyser et visualiser les données de salaires en France selon différents critères : âge, sexe, profession, région, diplôme, taille d'entreprise, etc.
 
+https://techsalaryanalytics.lovable.app/
+
 ## architecture du Projet
 
 
@@ -33,12 +35,8 @@ Ce projet est une application web interactive pour analyser et visualiser les do
 ## Installation et Configuration
 
 ### Prérequis
-
 - Python avec pandas installé
-- 
 
 ### Installation des dépendances Python
-
-
 pip install pandas
 
