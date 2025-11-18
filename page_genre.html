@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Analyse par Genre</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3135/3135706.png" />
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>6. Inégalités Hommes-Femmes dans la Tech</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="page_age.html">Âge</a>
+            <a href="page_formation.html">Formation</a>
+            <a href="page_metiers.html">Métiers</a>
+            <a href="page_entreprise.html">Entreprise</a>
+            <a href="page_geographie.html">Géographie</a>
+            <a href="page_genre.html">Genre</a>
+        </nav>
+    </header>
+    <main>
+        <div class="chart-container-full">
+            <h2>Évolution du salaire moyen par ancienneté</h2>
+            <div id="genderSeniorityChart"></div>
+            <h3>Interprétation</h3>
+            <p>L'écart de salaire se creuse car les carrières des hommes et des femmes n'évoluent pas au même rythme aux
+                niveaux d'ancienneté les plus élevés. Selon <u>l'APEC</u>, ce décrochage s'explique notamment par le
+                "plafond de verre", les hommes accédant proportionnellement plus aux postes de direction mieux
+                rémunérés, ce qui fait grimper leur salaire moyen. Parallèlement, le recours plus fréquent des femmes au
+                temps partiel pour raisons familiales impacte leur rémunération annuelle moyenne et accentue cet écart.
+            </p>
+        </div>
+
+        <div class="chart-container-grid two-cols">
+            <div class="chart-item">
+                <h2>Écart de salaire global</h2>
+                <div id="genderGapBarChart"></div>
+                <h3>Interprétation</h3>
+                <p>En moyenne, dans le secteur de la techn en france, les hommes gagnent près de 14%
+                    de plus que les femmes.</p>
+            </div>
+            <div class="chart-item">
+                <h2>Répartition par profession</h2>
+                <div id="genderProfessionChart"></div>
+                <h3>Interprétation</h3>
+                <p>Ce graphique montre la sous-représentation des femmes dans les postes de cadres, qui sont les mieux
+                    rémunérés, et leur sur-représentation dans les postes d'employés.</p>
+            </div>
+        </div>
+    </main>
+    <script src="js/genre.js"></script>
+</body>
+
+</html>

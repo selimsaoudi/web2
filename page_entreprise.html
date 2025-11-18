@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Analyse par Taille d'Entreprise</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3135/3135706.png" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>4. Influence de la Taille de l'Entreprise</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="page_age.html">Âge</a>
+            <a href="page_formation.html">Formation</a>
+            <a href="page_metiers.html">Métiers</a>
+            <a href="page_entreprise.html">Entreprise</a>
+            <a href="page_geographie.html">Géographie</a>
+            <a href="page_genre.html">Genre</a>
+        </nav>
+    </header>
+    <main>
+        <div class="chart-container-grid two-cols">
+            <div class="chart-item">
+                <h2>Salaire par Taille d'Entreprise</h2>
+                <canvas id="sizeBarChart"></canvas>
+            </div>
+            <div class="chart-item">
+                <h2>Répartition des Postes</h2>
+                <canvas id="sizeDonutChart"></canvas>
+            </div>
+        </div>
+        <<h3>Interprétation</h3>
+            <p>
+                La part la plus importante des postes se trouve dans les <strong>entreprises 1000+ salariés</strong>
+            </p>
+            <p>
+                Plus l’entreprise est grande, plus le salaire moyen est élevé
+            </p>
+    </main>
+    <script src="js/entreprise.js"></script>
+</body>
+
+</html>
